@@ -43,7 +43,8 @@ void displayPlayersWithOddNumbers() {
 	}
 }
 
-// Checks if each player has a name starting with a given letter, and prints names and numbers of players with odd numbers
+// Checks if each player has a name starting with a given letter; if true, prints name and number of player
+// Informs user if no player has a name starting with the letter.
 // NOTE: Case-sensitive! Letter must be capitalized to match with player names.
 void displayPlayersStartingWithLetter(char c) {
 	bool letterNotFound{ true };
